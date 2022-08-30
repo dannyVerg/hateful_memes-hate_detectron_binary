@@ -14,5 +14,5 @@ mmf_run config="/content/mmf/mmf/projects/hateful_memes/configs/unimodal/bert.ya
          dataset_config.hateful_memes.annotations.train[0]=$2 \
          dataset_config.hateful_memes.annotations.val[0]=$3 \
          dataset_config.hateful_memes.annotations.test[0]=$4 \
-         env.save_dir=$5 \
-         env.tensorboard_logdir=$6
+         env.save_dir=./$5 \
+         env.tensorboard_logdir=logs/fit/$6
